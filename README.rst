@@ -17,14 +17,14 @@ The language and countries
 
 Greek language is used in varios countries.
 
-============ ==========================================================
-Country      ISO Language code
-============ ==========================================================
-🇨🇾 Cyprus    .. image:: https://img.shields.io/badge/Cyprus-el-green
+=========== ==========================================================
+Country     ISO Language code
+=========== ==========================================================
+🇨🇾          .. image:: https://img.shields.io/badge/Cyprus-el-green
 
 
-🇬🇷 Greece    .. image:: https://img.shields.io/badge/Greek-el-green
-============ ==========================================================
+🇬🇷          .. image:: https://img.shields.io/badge/Greek-el-green
+=========== ==========================================================
 
 
 NLP tasks
