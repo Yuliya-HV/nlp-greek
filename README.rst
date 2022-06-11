@@ -50,14 +50,12 @@ Pipeline Components
 
 Accentuation and diacritics
 ~~~~~~~~~~~~~~~~~~~
-Greek text requires accents removal.
+Greek text requires accents and diacritics removal. Some new Tokenizers include this step but earliest editions doesn not.
+https://legacy.cltk.org/en/latest/greek.html
 
 
 Lemmatization
 ~~~~~~~~~~~~~~~~~~~
-
-https://legacy.cltk.org/en/latest/greek.html
-
 
 https://spacy.io/models/el
 
@@ -118,8 +116,10 @@ Transformers
 General model
 -------------
 
-BERT model pretrained on Greek corpus 
+BERT model pretrained on Greek corpus only.
 
 ..code: bert-base-greek-uncased-v1
 
 `Greek BERT <https://github.com/nlpaueb/greek-bert>` _
+
+
