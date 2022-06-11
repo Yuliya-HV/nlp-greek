@@ -27,6 +27,17 @@ Country     ISO Language code
 =========== ==========================================================
 
 
+Greek Tree Bank
+---------
+Morphological and syntatic annotations of Greek corpus. This Greek UD source used by many other pretrained open-source components. 
+Manually annotated: lemmas, dependencies, POS, features.
+Genre: news, wiki, spoken
+Souces: public domain, wikinews articles, European Parlament sessions texts.
+Corpus size: 2521 sentences/ 61.673 tokens.
+
+https://universaldependencies.org/treebanks/el_gdt/index.html
+
+
 NLP tasks
 ---------
 
@@ -40,7 +51,6 @@ Lemmatization
 
 https://legacy.cltk.org/en/latest/greek.html
 
-https://universaldependencies.org/treebanks/el_gdt/index.html
 
 https://spacy.io/models/el
 
