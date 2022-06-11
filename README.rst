@@ -45,7 +45,7 @@ https://universaldependencies.org/treebanks/el_gdt/index.html
 
 
 
-Preprocessing
+Pipeline Components
 ---------
 
 Accentuation and diacritics
@@ -76,6 +76,8 @@ Sentence
 Paragraph
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+ tok2vec, morphologizer, parser, lemmatizer (trainable_lemmatizer), senter, ner, attribute_ruler.
+
 
 NLP tasks
 ----------
@@ -83,18 +85,41 @@ NLP tasks
 Named Entity Recognition
 ~~~~~~~~~~~~~~~~~~~
 
-=============  =================================================  ==========
-Package        Supported labels                                   Link
-=============  =================================================  ==========
-Spacy
-=============  =================================================  ==========
+=============  =================================================  ===============================================================
+Source         Supported labels                                   Link
+=============  =================================================  ===============================================================
+Spacy          EVENT, GPE, LOC, ORG, PERSON, PRODUCT              `Spacy models <https://spacy.io/models/el>`_
+
+
 Stanza
-=============  =================================================  ==========
+
+
 Spark NLP
-=============  =================================================  ==========
-Transformers
-=============  =================================================  ==========
 
 
+AUEB           LOC, ORG, PERSON,                                  `gr-nlp-toolkit <https://github.com/nlpaueb/gr-nlp-toolkit>`_
+                                                                  transformer-based
+=============  =================================================  ===============================================================
 
-https://spacy.io/models/el
+
+Translation
+~~~~~~~~~~~~~~~~~~~
+
+=============  =================================================  =============================================
+Package        Details                                            Link
+=============  =================================================  =============================================
+Spark NLP      Multilingual (wrapped from Hugging Face)
+
+
+Transformers   
+=============  =================================================  =============================================
+
+
+General model
+-------------
+
+BERT model pretrained on Greek corpus 
+
+..code: bert-base-greek-uncased-v1
+
+`Greek BERT <https://github.com/nlpaueb/greek-bert>` _
