@@ -118,8 +118,8 @@ General model
 
 BERT model pretrained on Greek corpus only.
 
-..code: bert-base-greek-uncased-v1
+**bert-base-greek-uncased-v1**
 
-`Greek BERT <https://github.com/nlpaueb/greek-bert>` _
+`Greek BERT <https://github.com/nlpaueb/greek-bert>`_
 
 
