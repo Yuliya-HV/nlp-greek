@@ -57,24 +57,32 @@ https://legacy.cltk.org/en/latest/greek.html
 Lemmatization
 ~~~~~~~~~~~~~~~~~~~
 
-https://spacy.io/models/el
+`Spacy lemmatizer (trainable lemmatizer) <https://spacy.io/api/lemmatizer>`_
 
-https://nlp.johnsnowlabs.com/2020/05/05/lemma_el.html
+`JohnSnowLabs Greek lemmatizer <https://nlp.johnsnowlabs.com/2020/05/05/lemma_el.html>`_
+
+`CLTK Greek lemmatiter <https://legacy.cltk.org/en/latest/greek.html#lemmatization>`
 
 
 Tokenization
 ~~~~~~~~~~~~~~~~~~~
 
-Word
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Depends on a sutiation we might need different corpus tokenization. Sources below include general tokenizers for word, sentence, paragraph tokenization.
 
-Sentence
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Paragraph
+NLTK
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+`NLTK tokenizer module <https://www.nltk.org/api/nltk.tokenize.html>`_
 
- tok2vec, morphologizer, parser, lemmatizer (trainable_lemmatizer), senter, ner, attribute_ruler.
+Spacy
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+`Spacy Tokenizer <https://spacy.io/api/tokenizer>`_
+
+
+Other 
+~~~~~~~~~~~~~~~~~~~
+Spacy offers other helpful components:
+morphologizer, parser, attribute_ruler.
 
 
 NLP tasks
@@ -89,10 +97,10 @@ Source         Supported labels                                   Link
 Spacy          EVENT, GPE, LOC, ORG, PERSON, PRODUCT              `Spacy models <https://spacy.io/models/el>`_
 
 
-Stanza
-
-
 Spark NLP
+
+
+Stanza
 
 
 AUEB           LOC, ORG, PERSON,                                  `gr-nlp-toolkit <https://github.com/nlpaueb/gr-nlp-toolkit>`_
@@ -109,12 +117,12 @@ Package        Details                                            Link
 Spark NLP      Multilingual (wrapped from Hugging Face)
 
 
-Transformers   
+Transformers   Multilingual 
 =============  =================================================  =============================================
 
 
-General model
--------------
+Transformers model
+-------------------
 
 BERT model pretrained on Greek corpus only.
 
