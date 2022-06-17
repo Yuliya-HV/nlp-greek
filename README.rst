@@ -15,7 +15,7 @@ This repo is an aggregation of sources for Greek language to tackle varios Natur
 The language and countries
 ---------------------------
 
-Greek language is used in varios countries.
+Greek language is spoken by majority of population in two countries.
 
 =========== ==========================================================
 Country     ISO Language code
