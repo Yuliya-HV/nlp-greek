@@ -22,7 +22,6 @@ Greek language is spoken by majority of population in two countries.
 === ======================================================== 
 CY  .. image:: https://img.shields.io/badge/Cyprus-el-green           
 
-
 GR  .. image:: https://img.shields.io/badge/Greek-el-green            
 === ======================================================== 
 
