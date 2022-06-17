@@ -61,7 +61,7 @@ Lemmatization
 
 `JohnSnowLabs Greek lemmatizer <https://nlp.johnsnowlabs.com/2020/05/05/lemma_el.html>`_
 
-`CLTK Greek lemmatiter <https://legacy.cltk.org/en/latest/greek.html#lemmatization>`
+`CLTK Greek lemmatiter <https://legacy.cltk.org/en/latest/greek.html#lemmatization>`_
 
 
 Tokenization
@@ -77,12 +77,13 @@ NLTK
 Spacy
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 `Spacy Tokenizer <https://spacy.io/api/tokenizer>`_
+Also available a pipeline component for Greek language **senter** for Sentence segmentation.
 
 
 Other 
 ~~~~~~~~~~~~~~~~~~~
 Spacy offers other helpful components:
-morphologizer, parser, attribute_ruler.
+morphologizer, dependency parser, attribute ruler.
 
 
 NLP tasks
