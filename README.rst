@@ -18,12 +18,12 @@ The language and countries
 Greek language is spoken by majority of population in two countries.
 
 === ======================================================= 
-#   Country / ISO Language code
+    Country / ISO Language code
 === ======================================================= 
-1   .. image:: https://img.shields.io/badge/Cyprus-cy-green           
+CY   .. image:: https://img.shields.io/badge/Cyprus-el-green           
 
 
-2   .. image:: https://img.shields.io/badge/Greek-gr-green            
+GR   .. image:: https://img.shields.io/badge/Greek-el-green            
 === ========================================================
 
 
