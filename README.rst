@@ -87,6 +87,7 @@ morphologizer, dependency parser, attribute ruler.
 NLP tasks
 ----------
 
+
 Named Entity Recognition
 ~~~~~~~~~~~~~~~~~~~
 
@@ -118,6 +119,13 @@ Spark NLP      Multilingual (wrapped from Hugging Face)
 
 Transformers   Multilingual 
 =============  =================================================  =============================================
+
+
+Question Answering
+~~~~~~~~~~~~~~~~~~
+
+Cross-lingual QA dataset:
+`XQuAD <https://paperswithcode.com/dataset/xquad>`_
 
 
 Transformers model
