@@ -18,6 +18,8 @@ The language and countries
 Greek language is spoken by majority of population in two countries.
 
 === ======================================================== 
+    Language code
+=== ======================================================== 
 CY   .. image:: https://img.shields.io/badge/Cyprus-el-green           
 
 
