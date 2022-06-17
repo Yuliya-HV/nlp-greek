@@ -132,3 +132,9 @@ BERT model pretrained on Greek corpus only.
 `Greek BERT <https://github.com/nlpaueb/greek-bert>`_
 
 
+Other
+------
+
+`List of 144,000 Classical Greek proper nouns <https://github.com/cltk/greek_proper_names_cltk>`_
+`Some handy stuff for Ancient Greek <https://legacy.cltk.org/en/latest/greek.html>`_
+
